@@ -1,0 +1,14 @@
+{
+  "name": "DIY Home & Garden Helper",
+  "description": "Your AI assistant for home improvement and gardening. Explain manuals, plan projects, summarize documents, troubleshoot issues, and get real-time voice guidance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "env": {
+    "AMAZON_ASSOCIATE_TAG": "mytreat-20"
+  },
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

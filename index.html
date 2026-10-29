@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY Home & Garden Helper</title>
+    <meta name="description" content="Your AI assistant for home improvement and gardening. Explain manuals, plan projects, summarize documents, troubleshoot issues, and get real-time voice guidance.">
+    <meta property="og:title" content="DIY Home & Garden Helper">
+    <meta property="og:description" content="Your AI assistant for home improvement and gardening. Explain manuals, plan projects, summarize documents, troubleshoot issues, and get real-time voice guidance.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#16a34a', // Emerald-600 DIY/Garden Green
+                hover: '#15803d',
+              },
+              secondary: '#0284c7', // Sky-600
+              textPrimary: '#1f2937',
+              textSecondary: '#6b7280',
+              bgSecondary: '#f9fafb',
+              borderColor: '#e5e7eb',
+              success: '#10b981',
+              warning: '#f59e0b',
+              error: '#ef4444',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body class="font-sans bg-slate-900 min-h-screen text-slate-800 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
